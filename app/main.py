@@ -7,3 +7,5 @@ client = MongoClient(MONGO_URI)
 db = client.admin
 db_list = db.command("listDatabases")
 pprint(db_list)
+
+print("End");
